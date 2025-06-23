@@ -13,7 +13,7 @@ export const DATA = {
 
   i like to code, read about startups, brew coffee and enjoy a good game of cricket.  
     
-  if you'd like to connect over a chat, say hello on [x.com](https://x.com/aayushk999) or book a meeting with me [here](https://cal.com/aayushdev/chat?Iuser=aayushdev&duration=5).`,
+  if you'd like to connect over a chat, say hello on [x.com](https://x.com/ak1twt) or book a meeting with me [here](https://cal.com/aayushdev/chat?Iuser=aayushdev&duration=5).`,
         
   avatarUrl: "/img.jpg",
   skills: [
@@ -49,7 +49,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/aayushk999",
+        url: "https://x.com/ak1twt",
         icon: Icons.x,
 
         navbar: true,
