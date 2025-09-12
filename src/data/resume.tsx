@@ -69,7 +69,7 @@ export const DATA = {
       href: "https://www.linkedin.com/school/savitribai-phule-pune-university-sppu/",
       degree: "Bachelors of Engineering (Electronics)",
       logoUrl: "/unilogo.jpg",
-      start: "2021",
+      start: "2022",
       end: "2025",
     },
   ],
