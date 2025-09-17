@@ -11,20 +11,24 @@ export const DATA = {
     "21 year old nice guy",
   summary: `long story short; full stack engineer, crypto guy.  
 
-  i like to code, read about startups, brew coffee and enjoy a good game of cricket.  
+  i like to code, work at early stage startups, brew coffee and enjoy a good game of cricket.  
     
   if you'd like to connect over a chat, say hello on [x.com](https://x.com/ak1twt) or book a meeting with me [here](https://cal.com/aayushdev/chat?Iuser=aayushdev&duration=5).`,
         
   avatarUrl: "/img.jpg",
   skills: [
+    "JavaScript",
+    "TypeScript",
     "Next.js",
-    "React.js",
-    "Typescript",
+    "React",
     "Node.js",
-    "Express",
+    "Express.js",
+    "NestJS",
     "Postgres",
+    "Prisma",
     "Docker",
-    "Java"
+    "Tailwind CSS",
+    "Git"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -63,6 +67,19 @@ export const DATA = {
       },
     },
   },
+    work: [
+    {
+      company: "Dawn Labs",
+      href: "https://dawn.ai",
+      badges: [],
+      location: "New York, United States (Remote)",
+      title: "IC Full Stack Engineer",
+      logoUrl: "/dawnlogo.jpg",
+      start: "May 2025",
+      end: "June 2025",
+      description: "The cursor for trading",
+    },
+  ],
   education: [
     {
       school: "Pune University",
@@ -77,21 +94,18 @@ export const DATA = {
     {
       title: "MAK3SPACE",
       href: "https://mak3space.vercel.app/",
-      dates: "April 2025 - present",
       active: true,
       description:
-        "private spaces for couples & friends, mak3space makes it easy to stay accountable using solana and fiat",
+        "Private spaces for couples & friends, mak3space makes it easy to stay accountable using solana and fiat",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Solana",
-        "Stripe",
-        "Socket.io",
-        "Prisma",
         "TailwindCSS",
         "Shadcn UI",
-        "framer motion"
+        "PostgreSQL",
+        "Prisma",
+        "Solana",
+        "Socket.io",
       ],
       links: [
         {
@@ -112,7 +126,6 @@ export const DATA = {
     {
       title: "Batch0",
       href: "https://batch-0.vercel.app/",
-      dates: "April 2025",
       active: true,
       description:
         "Connect with early users for your startup, easiest way to collect and manage beta user requests for your startup",
@@ -143,7 +156,6 @@ export const DATA = {
     {
       title: "Wordbook",
       href: "https://wordbook-one.vercel.app/",
-      dates: "April 2025",
       active: true,
       description:
         "Learn a new word every day with context, examples and usecase. Build your vocabulary effortlessly with WordBook.",
@@ -173,7 +185,6 @@ export const DATA = {
     {
       title: "Human Kind",
       href: "https://humankind-space.vercel.app/",
-      dates: "April 2025",
       active: true,
       description:
         "Human connection has features such as dailylogs, gratitude, knowledge and zen",
@@ -199,36 +210,6 @@ export const DATA = {
       ],
       image: "/kind.png",
       video: "",
-    },
-    {
-      title: "BigBrain",
-      href: "https://bigbrain-bb.vercel.app/",
-      dates: "March 2025",
-      active: true,
-      description:
-        "BigBrain helps you find research papers, crypto whitepapers and the latest news on crypto and startups.",
-      technologies: [
-        "React.js",
-        "Express",
-        "MongoDB",
-        "Node.js",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://bigbrain-bb.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/aayushk9/BigBrain",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/bigb.png",
-      video:
-        "",
     },
   ],
 } as const;
